@@ -1,0 +1,160 @@
+/* styles.css */
+
+/* 全体のスタイル */
+body {
+  font-family: 'Hiragino Kaku Gothic Pro','Meiryo',sans-serif;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+/* ヘッダー */
+header {
+  background-color:#8fbc8f;
+  color: #fff;
+  padding: 30px;
+
+}
+
+header h1 {
+  margin: 0;
+  text-align:center;
+  font-size:50px;
+}
+
+header h4 {
+  margin: 0;
+  text-align:center;
+}
+
+header nav ul {
+  list-style-type: none;
+  margin:0 ;
+  padding: 0;
+  text-align:right;
+  text-decoration: underline;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 35px;
+}
+
+a{
+  text-decoration: none;
+  
+}
+
+header nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+
+}
+
+/* セクション */
+section {
+ margin: 60px;
+
+}
+
+section h2 {
+  margin-top: 0;
+  text-decoration: underline;
+  color: #8fbc8f;
+  font-size: 35px;
+}
+
+/* 経験 */
+
+/* .contents {
+  height: 500px;
+  margin-top:100px;
+  display: inline-block; 
+  width: 1500;
+}*/
+
+
+.container{
+  flex-direction:column;
+  color: #000000;
+  
+}
+
+.ue,
+.shita{
+  display: flex;
+  margin-left: 100px;
+}
+
+/*.container{
+  display:grid;
+  grid-template-columns:200px 200px 200px;
+  gap: 800px;
+  grid-template-rows: 50px 50px;
+  text-align:center;
+  font-size:30px; 
+  
+}*/
+
+.contents-item {
+  margin-right: 40px; 
+  text-align: center;
+
+}
+
+.contents-item img{
+  width: 200px;
+  padding:10px;
+}
+
+.contents-item p{
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+/* .explain-item{
+  background: none;
+  color: #111;
+  padding: 10px;
+}*/
+
+/* プロジェクト */
+.project {
+  margin-bottom: 20px;
+}
+
+
+/* コンタクト*/
+.contact{
+ 
+}
+/* フッター */
+/* footer {
+  background-color: #fff;
+  color: #000000;
+  padding: 0px;
+  text-align: center;
+ 
+}*/
+
+.footer {
+  background-color: #d2b48c;
+  color: #fff;
+  height: 120px;
+  padding:50px;
+  
+  
+}
+
+.footer-logo {
+  font-size: 32px;
+  float: left;
+
+}
+  
+.footer-list {
+  float: right;
+}
+.footer-list li {
+  padding-bottom: 20px;
+}
